@@ -1,0 +1,283 @@
+body {
+	background: #f12711;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin: 0;
+}
+
+h1 {
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+h3 {
+	font-family: sans-serif;
+}
+
+footer {
+	background: black;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+	-moz-box-shadow: 0 0 10px black;
+	-webkit-box-shadow: 0 0 10px black;
+	box-shadow: 0 0 10px black;
+}
+
+footer h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.footer-container {
+	padding-bottom: 45px;
+}
+
+.prefooter {
+	padding-bottom: 150px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+
+/*											*/
+/*											*/
+/* 					Home Page 				*/
+/*											*/
+/*											*/
+
+.logo-container{
+	padding-top: 95px;
+	padding-bottom: 125px;
+	width: 40%;
+	min-width: 400px;
+	text-align: center;
+	margin: auto;
+}
+
+.logo-container h1{
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.shadow {
+	margin: auto;
+	width: 90%;
+	border-radius: 50%;
+
+}
+
+.cityyear-logo {
+	width: 100%;
+}
+
+.cityyear-logo:hover {
+	margin: auto;
+	transform: scale(1.15);
+}
+
+.schoolnames {
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+.schoolnames h1 {
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-weight: bold;
+}
+
+.schoolnames a:hover {
+	color: lightgrey;
+}
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.column2 {
+	float: left;
+	width: 50%;
+}
+
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+
+/* For Mobile Devices */
+
+@media screen and (max-width: 601px) {
+	.logo-container h1{
+		font-size: 40px;
+	}
+
+	.schoolnames h1 {
+		font-size: 30px;
+	}
+
+	.schoolnames h2 {
+		font-size: 20px;
+	}
+}
+
+/*											*/
+/*											*/
+/* 				Yearbook Page 				*/
+/*											*/
+/*											*/
+
+.navbar {
+	padding: 20px;
+}
+
+.navbar .column2 li{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
+	padding-top: 40px;
+	float: right;
+}
+
+.cityyear-navbar {
+	width: 110px;
+}
+
+.cityyear-navbar:hover {
+	transform: scale(1.05);
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown-content h3{
+	font-size: 25px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  font-size: 20px;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  text-shadow: 2px 2px 5px white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.yearbook-page {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.yearbook-page .row {
+	padding-bottom: 80px;
+}
+
+.yearbook-page h1{
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	font-weight: bold;
+}
+
+.yearbook-page .row hr {
+	width: 70%;
+	border-style: solid;
+	border-color: black;
+}
+
+.headshot {
+	background: black;
+	border-style: double;
+	width: 75%;
+}
+
+.headshot:hover {
+	-moz-box-shadow: 0 0 15px white;
+	-webkit-box-shadow: 0 0 15px white;
+	box-shadow: 0 0 15px white;
+}
+
+/* For Desktops */
+@media screen and (min-width: 600px) {
+	.navbar {
+		padding-right: 40px;
+	}
+	.navbar .column2 li{
+		font-size: 25px;
+	}
+}
+
+/* For Desktops */
+@media screen and (max-width: 651px) {
+	.navbar .column2 li{
+		font-size: 18px;
+	}
+
+	.dropdown-content h3{
+		font-size: 17px;
+	}
+
+	/* Links inside the dropdown */
+	.dropdown-content a {
+	  	font-size: 14px;
+	}
+}
